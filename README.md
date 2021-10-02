@@ -21,11 +21,12 @@ $ python app.py
 
 | Name |  |Url |
 | ------ | ---|------ |
-| pokemon |Retrieves all data from the DB |[http://127.0.0.1:5000/api/pokemon][PlDb] |
-| pokemon | Can receive parameters for retrieve data filtered by ID  |[http://127.0.0.1:5000/api/pokemon?filter=1][PlGh] |
-| pokemon | Can receive parameters for get response, sorted by indicated column and  ASC (by default) or DESC criteria |[http://127.0.0esting
-.1:5000/api/pokemon?sort_ord=asc&sort_col=id][PlGh] |
-| pokemon | In addition api was built for receive the combination for sorting and filtering |[http://127.0.0.1:5000/api/pokemon?sort_ord=asc&sort_col=id&filter=1][PlGh] |
+| pokemon |Retrieves all data from the DB |[http://127.0.0.1:5000/api/pokemon] |
+| pokemon |Retrieves data given the Pokemon id as parameter |[http://127.0.0.1:5000/api/pokemon?id=3] |
+| pokemon_paginated | Returns all data in list gropued by page. A parameter for  |[http://127.0.0.1:5000/api/pokemon?filter=1] |
+
+
+| pokemon | In addition api was built for receive the combination for sorting and filtering |[http://127.0.0.1:5000/api/pokemon?sort_ord=asc&sort_col=id&filter=1] |
 
 It will ask for a valid authentication:
 password is: superuser 
