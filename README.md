@@ -9,13 +9,7 @@ First install all of the Python requirements (via pip):
 $ pip install -r requirements.txt
 ```
 
-Before running the application, we need to run the database files to setup the database, tables and data.
-To create the database, run the following command:
-```sh
-$ python data/data-db.py
-```
-
-Lastly, for running the application, use the command below:
+For running the application, use the command below:
 ```sh
 $ python app.py
 ```
