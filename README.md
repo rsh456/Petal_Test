@@ -34,9 +34,7 @@ $ python app.py
 | pokemon |Retrieves data given the Pokemon id as parameter |[http://127.0.0.1:5000/api/pokemon?id=3] |
 | pokemon_paginated | Returns all data in list gropued by page. A parameter for  |[http://127.0.0.1:5000/api/pokemon?filter=1] |
 
-
-| pokemon | In addition api was built for receive the combination for sorting and filtering |[http://127.0.0.1:5000/api/pokemon?sort_ord=asc&sort_col=id&filter=1] |
-
+In addition to exposed REST API's for CRUD operation
 Create a new pokemon:
 
 ![](https://github.com/rsh456/Petal_Test/blob/main/images/add.jpg)
