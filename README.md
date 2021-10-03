@@ -37,16 +37,20 @@ $ python app.py
 
 | pokemon | In addition api was built for receive the combination for sorting and filtering |[http://127.0.0.1:5000/api/pokemon?sort_ord=asc&sort_col=id&filter=1] |
 
-It will ask for a valid authentication:
-password is: superuser 
-![](https://github.com/rsh456/autolab/blob/main/api_auth.jpg)
+Create a new pokemon:
 
-Will get all the data if no params are attached to the request
-![](https://github.com/rsh456/autolab/blob/main/api_noparams.jpg)
+![](https://github.com/rsh456/Petal_Test/blob/main/images/add.jpg)
+![](https://github.com/rsh456/Petal_Test/blob/main/images/add_file.jpg)
 
-Otherwise it will show data according to sent paramaters.
-![](https://github.com/rsh456/autolab/blob/main/api_filter.jpg)
+Read list of Pokemon
+![](https://github.com/rsh456/Petal_Test/blob/main/images/read_all.jpg)
 
+Update Pokemon
+![](https://github.com/rsh456/Petal_Test/blob/main/images/update.jpg)
+![](https://github.com/rsh456/Petal_Test/blob/main/images/update_file.jpg)
+
+Delete Pokemon
+![](https://github.com/rsh456/Petal_Test/blob/main/images/delete.jpg)
 
 ## Test
 Test were built using pytest, they could be run with the script:
