@@ -1,7 +1,16 @@
 # Petal Technical Test
 Petal technical test. The challenge was developed using Flask and python.
 
-## Instructions
+## Instructions using Docker
+Form the Dockerfile, execute:
+```sh
+docker build -t petal_pokemon .
+```
+```sh
+docker run -it -p 7001:5000 petal_pokemon
+```
+
+## Instructions without Docker
 
 First install all of the Python requirements (via pip):
 
