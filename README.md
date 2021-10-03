@@ -57,5 +57,5 @@ Test were built using pytest, they could be run with the script:
 ```sh
 $ pytest
 ```
-![](https://github.com/rsh456/autolab/blob/main/pytest.jpg)
+![](https://github.com/rsh456/Petal_Test/blob/main/images/test.jpg)
 
