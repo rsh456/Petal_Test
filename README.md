@@ -9,7 +9,7 @@ docker build -t petal_pokemon .
 ```sh
 docker run -it -p 7001:5000 petal_pokemon
 ```
-![](https://github.com/rsh456/Petal_Test/images/init.jpg)
+![](https://github.com/rsh456/Petal_Test/blob/main/images/init.jpg)
 ## Instructions without Docker
 
 First install all of the Python requirements (via pip):
